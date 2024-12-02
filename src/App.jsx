@@ -8,15 +8,12 @@ import Expenses from './pages/Expenses'
 import Transactions from './pages/Transactions'
 import Savings from './pages/Savings'
 
-// Importing Navbar Component
-import Navbar from './components/Navbar'
+
 
 function App() {
   return (
     <Router>
-      {/* Global Navbar */}
-      {/* <Navbar /> */}
-      {/* Routes Configuration */}
+   
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/income' element={<Income />} />
